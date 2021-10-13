@@ -16,8 +16,8 @@ export class AppComponent {
           let price: number = parseFloat(emptyOrNumericString);
           if (price) {
             prices.push(price);
+            break;
           }
-          break;
         }
       }
     }
